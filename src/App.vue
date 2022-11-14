@@ -37,159 +37,159 @@
                 questions: [
                     {
                         question: "The example of this data are video, sounds, photographic images, documents, Maps.",
-                        answer: "unstructured data/multimedia data"
+                        answer: "Unstructured Data/Multimedia Data"
                     },
                     {
                         question: "This schema combines the different external views into a single, coherent definition of the enterprise's data. It represents the view of the data architect or data administrator.",
-                        answer: "conceptual schema"
+                        answer: "Conceptual Schema"
                     },
                     {
                         question: "Stored representations of objects and events that have meaning and importance in the user's environment.",
-                        answer: "data"
+                        answer: "Data"
                     },
                     {
                         question: "A database that represents data as a collection of tables in which all data relationships are represented by common values in related tables.",
-                        answer: "relational database"
+                        answer: "Relational Database"
                     },
                     {
                         question: "More detailed and more closely match the way a database and applications against it.",
-                        answer: "project-level data model"
+                        answer: "Project-Level Data Model"
                     },
                     {
                         question: "Data that have been processed in such a way as to increase the knowledge of the person who uses the data.",
-                        answer: "information"
+                        answer: "Information"
                     },
                     {
                         question: "A graphical model that shows the high-level entities for the organization and the relationships among those entities.",
-                        answer: "enterprise data model"
+                        answer: "Enterprise Data Model"
                     },
                     {
                         question: "An organized collection of logically related data.",
-                        answer: "database"
+                        answer: "Database"
                     },
                     {
                         question: "This is the view of managers and other employees who are the database users. It can be represented as a combination of the enterprise data model.",
-                        answer: "external schema"
+                        answer: "External Schema"
                     },
                     {
                         question: "Graphical systems used to capture the nature and relationships among data. Data models are created at both the enterprise and project levels.",
-                        answer: "data models"
+                        answer: "Data Models"
                     },
                     {
                         question: "The first step in database development, in which the scope and general contents of organizational databases are specified.",
-                        answer: "enterprise data modeling"
+                        answer: "Enterprise Data Modeling"
                     },
                     {
                         question: "Data that describe the properties or characteristics of end-user data, and the context of that data.",
-                        answer: "metadata"
+                        answer: "Metadata"
                     },
                     {
                         question: "A software system that is used to create, maintain, and provide controlled access to user databases.",
-                        answer: "database management systems"
+                        answer: "Database Management Systems"
                     },
                     {
                         question: "A formal, top-down methodology that uses a data orientation to create and maintain information systems.",
-                        answer: "information engineering"
+                        answer: "Information Engineering"
                     },
                     {
                         question: "A conceptual blueprint or plan that expresses the desired future structure for the information systems in an organization.",
-                        answer: "information systems architecture"
+                        answer: "Information Systems Architecture"
                     },
                     {
                         question: "The example of this data are numeric, character and dates.",
-                        answer: "structured data"
+                        answer: "Structured Data"
                     },
                     {
                         question: "Consists of logical and physical schema. The logical schema is the representation of data for a type of data management technology.",
-                        answer: "internal schema"
+                        answer: "Internal Schema"
                     },
                     {
                         question: "It occurs when the project is naturally or unnaturally terminated.",
-                        answer: "project close down"
+                        answer: "Project Close Down"
                     },
                     {
                         question: "A planned undertaking of related activities to reach an objective that has a beginning and an end.",
-                        answer: "project"
+                        answer: "Project"
                     },
                     {
                         question: "Collection of entities that have a common properties/ characteristic.",
-                        answer: "entity type"
+                        answer: "Entity Type"
                     },
                     {
                         question: "A property or characteristics of an entity type.",
-                        answer: "attributes"
+                        answer: "Attributes"
                     },
                     {
                         question: "An attribute that uniquely identifies individual instances of an entity type.",
-                        answer: "identifier"
+                        answer: "Identifier"
                     },
                     {
                         question: "A person, a place, object, event or concpets in the user environment about which the organization wishes to maintain data.",
-                        answer: "entity"
+                        answer: "Entity"
                     },
                     {
                         question: "A tool for communications between database designers and end users during the analysis phase of database development.",
-                        answer: "er model"
+                        answer: "ER Model"
                     },
                     {
                         question: "A graphical representation of an E-R model.",
-                        answer: "e-r diagram"
+                        answer: "E-R Diagram"
                     },
                     {
                         question: "An entity type whose existence depends on some other entity type.",
-                        answer: "weak entity"
+                        answer: "Weak Entity"
                     },
                     {
                         question: "An attribute that may take on more than one value for agiven entity instance.",
-                        answer: "multivalued attribute"
+                        answer: "Multivalued Attribute"
                     },
                     {
                         question: "An association between two or more terms.",
-                        answer: "fact"
+                        answer: "Fact"
                     },
                     {
                         question: "A meaningful association between (or among) entity types.",
-                        answer: "relationship types"
+                        answer: "Relationship Types"
                     },
                     {
                         question: "A single occurrence of an entity type.",
-                        answer: "entity instance"
+                        answer: "Entity Instance"
                     },
                     {
                         question: "An explanation of a term or a fact.",
-                        answer: "data definition"
+                        answer: "Data Definition"
                     },
                     {
                         question: "An attribute that can be broken down into component parts.",
-                        answer: "composite attribute"
+                        answer: "Composite Attribute"
                     },
                     {
                         question: "An identifier that consist of a composite attribute.",
-                        answer: "composite identifier"
+                        answer: "Composite Identifier"
                     },
                     {
                         question: "A statement that define or constrains some aspect of the business. It is intended to assert business structure or to control or influence the behavior of the business.",
-                        answer: "business rule"
+                        answer: "Business Rule"
                     },
                     {
                         question: "An association among the instances of one or more entity types that is of interest to the organization.",
-                        answer: "relationships"
+                        answer: "Relationships"
                     },
                     {
                         question: "An attribute that cannot broken down into smaller components.",
-                        answer: "simple attribute"
+                        answer: "Simple Attribute"
                     },
                     {
                         question: "A word or phrase that has a specific meaning for the business",
-                        answer: "term"
+                        answer: "Term"
                     },
                     {
                         question: "An attribute whose values can be calculated from related attribute values",
-                        answer: "derived attribute"
+                        answer: "Derived Attribute"
                     },
                     {
                         question: "One that exists independently of other entity type",
-                        answer: "strong entity"
+                        answer: "Strong Entity"
                     }
                 ]
             }
@@ -198,7 +198,7 @@
             verifyAnswer() {
                 if(this.user_answer == "") this.message = "Please put your answer";
                 else {
-                    if(this.user_answer == this.answer) this.message = "correct";
+                    if(this.user_answer.toLowerCase() == this.answer.toLowerCase()) this.message = "correct";
                     else this.message = "The correct answer is: " + this.answer;
 
                     this.isSubmitted = true;
