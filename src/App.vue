@@ -166,6 +166,54 @@
                         answer: "Relationship Instance"
                     },
                     {
+                        question: "An application program (or set of related programs) that is used to perform a series of database activities (create, read, update, and delete) on behalf of database users.",
+                        answer: "Database Application"
+                    },
+                    {
+                        question: "The separation of data description from the application programs that used the data.",
+                        answer: "Data Independence"
+                    },
+                    {
+                        question: "A logical description of some portion of the database that I required by a user to perform some task.",
+                        answer: "User View"
+                    },
+                    {
+                        question: "Designed to support one user.",
+                        answer: "Personal Database"
+                    },
+                    {
+                        question: "A relatively small team of people who collaborate on the same project or application or on a group of similar projects or applications.",
+                        answer: "Workgroup Database"
+                    },
+                    {
+                        question: "Generally larger than a workgroup. Designed to support the various functions and activities of a department or division.",
+                        answer: "Departmental/divisional database"
+                    },
+                    {
+                        question: "One whose scope is the entire organization or enterprise. Such databases are intended to support organization wide operations and decision making.",
+                        answer: "Enterprise Databases"
+                    },
+                    {
+                        question: "A business management system that integrates all functions of the enterprise, such as manufacturing, sale, finance, marketing, inventory, accounting, and human resources. ERP systems are software applications that provide the data necessary for the enterprise to examine and manage its activities.",
+                        answer: "Enterprise Resource Planning Systems"
+                    },
+                    {
+                        question: "An integrated decision support database whose content is derived from the various operational databases.",
+                        answer: "Data Warehousing Implementations"
+                    },
+                    {
+                        question: "A relationship between the instances of a single entity type.",
+                        answer: "Unary"
+                    },
+                    {
+                        question: "A relationship between the instances of a two entity type.",
+                        answer: "Binary"
+                    },
+                    {
+                        question: "A simultaneous relationship among the instance of 3 entity types",
+                        answer: "Ternary"
+                    },
+                    {
                         question: "A single occurrence of an entity type.",
                         answer: "Entity Instance"
                     },
