@@ -275,7 +275,7 @@
 
                 this.currentIndex++;
 
-                if(this.currentIndex == this.questions) {
+                if(this.currentIndex == this.questions.length) {
                     this.currentIndex = 0;
                     this.score = 0;
                     this.questions = this.questions.sort(() => 0.5 - Math.random());
