@@ -162,7 +162,7 @@
                         answer: "Relationship Types"
                     },
                     {
-                        question: "A meaningful association between (or among) entity instance.",
+                        question: "An association between (or among) entity instance where each relationship instances includes exactly one entity from each participating entity type.",
                         answer: "Relationship Instance"
                     },
                     {
