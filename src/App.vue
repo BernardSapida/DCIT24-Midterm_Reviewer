@@ -187,7 +187,7 @@
                     },
                     {
                         question: "Generally larger than a workgroup. Designed to support the various functions and activities of a department or division.",
-                        answer: "Departmental/divisional database"
+                        answer: "Departmental/Divisional Database"
                     },
                     {
                         question: "One whose scope is the entire organization or enterprise. Such databases are intended to support organization wide operations and decision making.",
