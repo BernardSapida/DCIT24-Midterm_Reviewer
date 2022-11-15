@@ -31,6 +31,7 @@
 <script>
     export default {
         mounted() {
+            this.questions = this.questions.sort((a, b) => 0.5 - Math.random());
             this.nextQuestion();
         },
         data() {
@@ -149,7 +150,7 @@
                         answer: "Weak Entity"
                     },
                     {
-                        question: "An attribute that may take on more than one value for agiven entity instance.",
+                        question: "An attribute that may take on more than one value for a given entity instance.",
                         answer: "Multivalued Attribute"
                     },
                     {
@@ -189,15 +190,15 @@
                         answer: "Simple Attribute"
                     },
                     {
-                        question: "A word or phrase that has a specific meaning for the business",
+                        question: "A word or phrase that has a specific meaning for the business.",
                         answer: "Term"
                     },
                     {
-                        question: "An attribute whose values can be calculated from related attribute values",
+                        question: "An attribute whose values can be calculated from related attribute values.",
                         answer: "Derived Attribute"
                     },
                     {
-                        question: "One that exists independently of other entity type",
+                        question: "One that exists independently of other entity type.",
                         answer: "Strong Entity"
                     }
                 ]
@@ -225,7 +226,10 @@
 
                 this.currentIndex++;
 
-                if(this.currentIndex == this.questions) this.currentIndex = 0;
+                if(this.currentIndex == this.questions) {
+                    this.currentIndex = 0;
+                    this.questions = this.questions.sort((a, b) => 0.5 - Math.random());
+                }
 
                 const SELECTED_QUESTION = this.questions[this.currentIndex];
                 const QUESTION = SELECTED_QUESTION.question;
