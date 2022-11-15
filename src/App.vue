@@ -282,7 +282,7 @@
                 }
 
                 const SELECTED_QUESTION = this.questions[this.currentIndex];
-                const QUESTION = SELECTED_QUESTION.question;
+                const QUESTION = `${this.currentIndex}) ${SELECTED_QUESTION.question}`;
                 const ANSWER = SELECTED_QUESTION.answer;
 
                 this.question = QUESTION;
