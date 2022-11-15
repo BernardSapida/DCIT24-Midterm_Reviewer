@@ -273,8 +273,6 @@
                 this.message = null;
                 this.user_answer = "";
 
-                this.currentIndex++;
-
                 if(this.currentIndex == this.questions.length) {
                     this.currentIndex = 0;
                     this.score = 0;
@@ -282,11 +280,13 @@
                 }
 
                 const SELECTED_QUESTION = this.questions[this.currentIndex];
-                const QUESTION = `${this.currentIndex}) ${SELECTED_QUESTION.question}`;
+                const QUESTION = `${this.currentIndex + 1}) ${SELECTED_QUESTION.question}`;
                 const ANSWER = SELECTED_QUESTION.answer;
 
                 this.question = QUESTION;
                 this.answer = ANSWER;
+
+                this.currentIndex++;
             }
         }
     }
