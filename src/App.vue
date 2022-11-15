@@ -10,7 +10,7 @@
             </div>
             <div class="mb-3">
                 <label for="answer" class="form-label"><strong class="text-danger fs-2">Q.</strong> <span class="question fs-3">{{ question }}</span></label>
-                <input type="text" class="form-control mt-2" v-model="user_answer" placeholder="Type your answer" aria-label="answer">
+                <input type="text" class="form-control mt-2" v-model="user_answer" placeholder="Type your answer" aria-label="answer" @keyup.enter="verifyAnswer()">
             </div>
         </div>
         <div class="card-footer d-flex justify-content-end align-items-center py-3">
