@@ -2,7 +2,7 @@
   <main>
     <div class="mx-5 my-5 card">
         <div class="card-header d-flex justify-content-between align-items-center py-3">
-            <h4 class="m-0">DCIT24 Midterm Reviewer</h4>
+            <h3 class="m-0">Score Streak: {{ score }}</h3>
         </div>
         <div class="card-body">
             <div v-if="message" class="text-white p-3 rounded mb-3" :class="[ message == 'correct' ? 'bg-success' : 'bg-danger' ]">
@@ -35,6 +35,7 @@
                 user_answer: "",
                 isSubmitted: false,
                 currentIndex: 0,
+                score: 0,
                 questions: [
                     {
                         question: "The example of this data are video, sounds, photographic images, documents, maps.",
@@ -199,8 +200,13 @@
             verifyAnswer() {
                 if(this.user_answer == "") this.message = "Please put your answer";
                 else {
-                    if(this.user_answer.toLowerCase() == this.answer.toLowerCase()) this.message = "correct";
-                    else this.message = "The correct answer is: " + this.answer;
+                    if(this.user_answer.trim().toLowerCase() == this.answer.toLowerCase()) {
+                        this.message = "correct";
+                        this.score++;
+                    } else {
+                        this.message = "The correct answer is: " + this.answer;
+                        this.score = 0;
+                    }
 
                     this.isSubmitted = true;
                 }
@@ -211,7 +217,7 @@
                 this.user_answer = "";
 
                 this.currentIndex++;
-                
+
                 if(this.currentIndex == this.questions) this.currentIndex = 0;
 
                 const SELECTED_QUESTION = this.questions[this.currentIndex];
