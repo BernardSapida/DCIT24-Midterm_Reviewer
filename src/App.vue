@@ -122,7 +122,7 @@
                         answer: "Project"
                     },
                     {
-                        question: "Collection of entities that have a common properties/ characteristic.",
+                        question: "Collection of entities that have a common properties/characteristic.",
                         answer: "Entity Type"
                     },
                     {
@@ -174,7 +174,7 @@
                         answer: "Data Independence"
                     },
                     {
-                        question: "A logical description of some portion of the database that I required by a user to perform some task.",
+                        question: "A logical description of some portion of the database that is required by a user to perform some task.",
                         answer: "User View"
                     },
                     {
