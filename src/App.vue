@@ -162,6 +162,10 @@
                         answer: "Relationship Types"
                     },
                     {
+                        question: "A meaningful association between (or among) entity instance.",
+                        answer: "Relationship Instance"
+                    },
+                    {
                         question: "A single occurrence of an entity type.",
                         answer: "Entity Instance"
                     },
@@ -228,7 +232,7 @@
 
                 if(this.currentIndex == this.questions) {
                     this.currentIndex = 0;
-                    this.questions = this.questions.sort((a, b) => 0.5 - Math.random());
+                    this.questions = this.questions.sort(() => 0.5 - Math.random());
                 }
 
                 const SELECTED_QUESTION = this.questions[this.currentIndex];
