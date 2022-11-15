@@ -194,7 +194,7 @@
                         answer: "Enterprise Databases"
                     },
                     {
-                        question: "A business management system that integrates all functions of the enterprise, such as manufacturing, sale, finance, marketing, inventory, accounting, and human resources. ERP systems are software applications that provide the data necessary for the enterprise to examine and manage its activities.",
+                        question: "A business management system that integrates all functions of the enterprise, such as manufacturing, sale, finance, marketing, inventory, accounting, and human resources.",
                         answer: "Enterprise Resource Planning Systems"
                     },
                     {
