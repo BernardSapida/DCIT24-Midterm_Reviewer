@@ -2,7 +2,7 @@
   <main>
     <div class="mx-5 my-5 card">
         <div class="card-header d-flex justify-content-between align-items-center py-3">
-            <h3 class="m-0">Score Streak: {{ score }}</h3>
+            <h3 class="m-0">score: {{ score }} / {{ questions.length }}</h3>
         </div>
         <div class="card-body">
             <div v-if="message" class="text-white p-3 rounded mb-3" :class="[ message == 'correct' ? 'bg-success' : 'bg-danger' ]">
@@ -263,10 +263,7 @@
                     if(this.user_answer.trim().toLowerCase() == this.answer.toLowerCase()) {
                         this.message = "correct";
                         this.score++;
-                    } else {
-                        this.message = "The correct answer is: " + this.answer;
-                        this.score = 0;
-                    }
+                    } else this.message = "The correct answer is: " + this.answer;
 
                     this.isSubmitted = true;
                 }
@@ -280,6 +277,7 @@
 
                 if(this.currentIndex == this.questions) {
                     this.currentIndex = 0;
+                    this.score = 0;
                     this.questions = this.questions.sort(() => 0.5 - Math.random());
                 }
 
