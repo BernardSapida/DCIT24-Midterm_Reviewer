@@ -34,9 +34,10 @@
                 answer: "",
                 user_answer: "",
                 isSubmitted: false,
+                currentIndex: 0,
                 questions: [
                     {
-                        question: "The example of this data are video, sounds, photographic images, documents, Maps.",
+                        question: "The example of this data are video, sounds, photographic images, documents, maps.",
                         answer: "Unstructured Data/Multimedia Data"
                     },
                     {
@@ -72,7 +73,7 @@
                         answer: "External Schema"
                     },
                     {
-                        question: "Graphical systems used to capture the nature and relationships among data. Data models are created at both the enterprise and project levels.",
+                        question: "Graphical systems used to capture the nature and relationships among data.",
                         answer: "Data Models"
                     },
                     {
@@ -209,7 +210,11 @@
                 this.message = null;
                 this.user_answer = "";
 
-                const SELECTED_QUESTION = this.questions[Math.floor(Math.random() * this.questions.length)];
+                this.currentIndex++;
+                
+                if(this.currentIndex == this.questions) this.currentIndex = 0;
+
+                const SELECTED_QUESTION = this.questions[this.currentIndex];
                 const QUESTION = SELECTED_QUESTION.question;
                 const ANSWER = SELECTED_QUESTION.answer;
 
